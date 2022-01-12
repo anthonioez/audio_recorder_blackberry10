@@ -1,0 +1,1 @@
+include (../RecorderPlus.pro)

@@ -1,0 +1,33 @@
+<sql>
+	<statement>
+	CREATE TABLE IF NOT EXISTS files 
+	(
+		_id 			INTEGER PRIMARY KEY AUTOINCREMENT, 
+		
+		folder			INTEGER,		
+		title			TEXT,
+		desc			TEXT,
+		
+		path			TEXT,
+		duration		INTEGER,		
+		size			INTEGER,
+						
+		flags			INTEGER,
+		status		 	INTEGER,
+		stamp		 	INTEGER
+	)
+	</statement>
+	
+	<statement>
+	CREATE TABLE IF NOT EXISTS folders 
+	(
+		_id 			INTEGER PRIMARY KEY AUTOINCREMENT, 
+		title			TEXT,
+		desc			TEXT,						
+		type			INTEGER,		
+		flags			INTEGER,
+		status		 	INTEGER,
+		stamp		 	INTEGER
+	)
+	</statement>		
+</sql>

@@ -1,0 +1,14 @@
+amr:
+16bit mono 8khz 	=> 32bit mono 8khz
+16bit stereo 8khz 	=> 32bit mono 8khz
+32bit mono 8khz 	=> null
+32bit steroe 8khz 	=> null
+
+
+m4a
+32bit stereo 48khz		=> ok
+32bit stereo 44.1khz	=> null
+32bit stereo 32khz		=> null
+32bit stereo 22.5khz	=> null
+
+

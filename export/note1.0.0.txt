@@ -1,5 +1,6 @@
-# RecorderPlus
- Native BlackBerry 10 voice/audio recording app with notes.
+Simple voice/audio recording app
+
+A simple native BB10 voice/audio recording app with notes.
 
 Available recording formats:
 - WAV: Best quality recording, large file size (48khz, 16bit stereo)
@@ -42,4 +43,12 @@ Features:
 - Support for Z30, Z10, Q10 and Q5
 - BlackBerry OS 10.1 and later!!!! 
 
-[Recorder+ on CrackBerry](https://forums.crackberry.com/blackberry-10-apps-f274/recorder-plus-blackberry-10-a-853274/?_ga=2.215037847.1877993354.1641976042-1846681488.1641976042)
+
+NOTE: 
+All future upgrade will be for free  
+
+INFO: 
+For more info, updates, comments or bug reports  
+Subscribe to the Miciniti Channel on BBM PIN: C0009B4BD 
+or send a mail to miciniti@gmail.com
+

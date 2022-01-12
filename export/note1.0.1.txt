@@ -1,0 +1,32 @@
+you can now organize your recordings in unlimited number of folders
+
+you can now see the file size while recording
+
+option to create, edit and delete recording folders
+
+option to move your recordings between folders
+
+option to select multiple files/folders for deleting
+
+option copy private recordings to device memory
+
+fixed ui issues with q10 and q5
+
+
+
+
+
+
+Recorder+ for BB10 version 1.0.1 is now available on BlackBerry World....
+
+what's new:
+* you can now see the file size while recording
+* you can now organize your recordings in unlimited number of folders
+* you can also move your recordings between folders
+* option to set playback speed
+* option to set the default recording folder
+* option to create, edit and delete recording folders
+* option to select multiple files/folders for deleting
+* option copy private recordings to device memory
+* option to choose between Cascades UI and Miciniti+ UI
+* fixed UI issues with q10 and q5

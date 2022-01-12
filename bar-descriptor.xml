@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<qnx xmlns="http://www.qnx.com/schemas/application/1.0">
+
+   <id>com.miciniti.recorderplus</id>
+
+    <name>Recorder+</name>
+    <versionNumber>1.0.2</versionNumber>
+
+    <buildId>3</buildId>
+                 
+    <description>A simple voice recorder app</description>
+
+    <author>Miciniti</author>
+    <authorId>gYAAgE1hssOg-gtcJbgG66k01eQ</authorId>
+    <category>core.media</category>
+    <configuration name="Device-Debug">
+       <platformArchitecture>armle-v7</platformArchitecture>
+       <asset path="arm/o.le-v7-g/RecorderPlus" entry="true" type="Qnx/Elf">RecorderPlus</asset>
+    </configuration>
+    <configuration name="Device-Release">
+       <entryPointType>Qnx/Cascades</entryPointType>
+       <platformArchitecture>armle-v7</platformArchitecture>
+       <asset path="arm/o.le-v7/RecorderPlus.so" entry="true" type="Qnx/Elf">RecorderPlus.so</asset>
+    </configuration>
+    <configuration name="Device-Profile">
+       <platformArchitecture>armle-v7</platformArchitecture>
+       <asset path="arm-p/o.le-v7-g/RecorderPlus" entry="true" type="Qnx/Elf">RecorderPlus</asset>
+    </configuration>
+    <configuration name="Simulator-Debug">
+       <platformArchitecture>x86</platformArchitecture>
+       <asset path="x86/o-g/RecorderPlus" entry="true" type="Qnx/Elf">RecorderPlus</asset>
+    </configuration>
+   
+    <initialWindow>
+        <autoOrients>true</autoOrients>
+        <systemChrome>none</systemChrome>
+        <transparent>false</transparent>
+    </initialWindow>
+    
+    <!--  The icon for the application, which should be 114x114. -->
+    <icon>
+        <image>icon.png</image>
+    </icon>
+
+    <asset path="icon.png">icon.png</asset>
+    <asset path="assets">assets</asset>
+    
+    <!-- Locale support -->
+    <asset path="translations" dest="qm">
+        <include name="*.qm"/>
+    </asset>
+    
+    <!-- Request permission to execute native code.  Required for native applications. -->
+    <permission system="true">run_native</permission>
+    <permission>run_when_backgrounded</permission>    
+    <permission>record_audio</permission>
+    <permission>bbm_connect</permission>
+
+    <permission>post_notification</permission>
+    <permission>access_led_control</permission>
+    <permission>access_shared</permission>
+    <env var="LD_LIBRARY_PATH" value="app/native/lib:/usr/lib/qt4/lib"/>
+	<env var="CASCADES_THEME" value="dark"/>	
+</qnx>
