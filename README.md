@@ -1,4 +1,5 @@
 # RecorderPlus
+
  Native BlackBerry 10 voice/audio recording app with notes.
 
 Available recording formats:
@@ -41,5 +42,11 @@ Features:
 - Option to set the background color to RED, GREEN, BLUE, YELLOW, MAGENTA, CYAN, or BLACK 
 - Support for Z30, Z10, Q10 and Q5
 - BlackBerry OS 10.1 and later!!!! 
+
+![Home](https://github.com/anthonioez/RecorderBlackBerry10/blob/main/export/1.png)
+  
+![Recording](https://github.com/anthonioez/RecorderBlackBerry10/blob/main/export/1b.png)
+
+![List of Recordings](https://github.com/anthonioez/RecorderBlackBerry10/blob/main/export/2.png)
 
 [Recorder+ on CrackBerry](https://forums.crackberry.com/blackberry-10-apps-f274/recorder-plus-blackberry-10-a-853274/?_ga=2.215037847.1877993354.1641976042-1846681488.1641976042)
